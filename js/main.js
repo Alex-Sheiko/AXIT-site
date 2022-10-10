@@ -1,26 +1,25 @@
-let tab = function (){
+function initTabs (){
     let tabNav = document.querySelectorAll('.tabs-nav__item');
-    let tabContent = document.querySelectorAll('.tabs-content__inner');
-    let tabName;
 
     tabNav.forEach(item => {
-        item.addEventListener('click', selectTabNav)
+        item.addEventListener('click',() => selectTabNav(tabNav,item))
     });
-    function selectTabNav(){
-        tabNav.forEach(item => {
+
+    function selectTabNav(items, currentItem){
+        items.forEach(item => {
             item.classList.remove('is-active')
         });
-        this.classList.add('is-active');
-        tabName = this.getAttribute('data-tab-name');
+        currentItem.classList.add('is-active');
+        let tabName = currentItem.getAttribute('data-tab-name');
         selectTabContent(tabName)
     }
 
     function selectTabContent(tabName) {
+        let tabContent = document.querySelectorAll('.tabs-content__inner');
         tabContent.forEach(item => {
             item.classList.contains(tabName)? item.classList.add('is-active') : item.classList.remove('is-active')
         })
-    }};
+    }
+}
 
-tab();
-
-console.log('TEST !!!!!!!!!!!!!!!!!!!!!')
+initTabs();
