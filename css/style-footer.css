@@ -1,0 +1,31 @@
+.footer-wrapper {
+    background-color: #000000;
+}
+
+.footer-inner {
+    padding: 35px 0 27px;
+}
+
+.footer-social {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 28px;
+}
+
+.footer-social__item + .footer-social__item{
+    margin-left: 33px;
+}
+
+.footer-copyright {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-copyright__text {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: rgba(255, 255, 255, 0.5);
+}
