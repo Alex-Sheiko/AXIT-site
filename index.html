@@ -6,6 +6,7 @@
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>AXIT</title>
    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="css/style-header.css">
    <link rel="stylesheet" href="css/style-social.css">
    <link rel="stylesheet" href="css/style-tab.css">
    <link rel="stylesheet" href="css/style-awesome.css">
@@ -16,288 +17,366 @@
 </head>
 
 <body>
-   <section class="social-media">
-      <div class="social-media__wrapper">
+<header class="header">
+   <div class="header__top-wrapper">
+      <div class="header__top">
+         <a class="logo" href="#">
+            <img class="logo__image" src="images/logo.png" alt="logo">
+         </a>
+         <nav class="menu">
+            <ul class="menu__list">
+               <li class="menu__item">
+                  <a class="menu__link" href="#">
+                     Features
+                  </a>
+               </li>
+               <li class="menu__item">
+                  <a class="menu__link" href="#">
+                     About
+                  </a>
+               </li>
+               <li class="menu__item">
+                  <a class="menu__link" href="#">
+                     Pricing
+                  </a>
+               </li>
+               <li class="menu__item">
+                  <a class="menu__link" href="#">
+                     Reviews
+                  </a>
+               </li>
+               <li class="menu__item">
+                  <a class="menu__link" href="#">
+                     Contact
+                  </a>
+               </li>
+            </ul>
+         </nav>
+      </div>
+   </div>
+   <div class="header__bottom-wrapper">
+      <div class="header__bottom">
+            <div class="container">
+               <div class="header__bottom-inner">
+                  <div class="header__left-section">
+                     <img class="header__bottom-image" src="images/header-bottom_logo.png" alt="logo">
+                     <h1 class="header__bottom-title">
+                        MODERN AXURE TEMPLATE FOR BEAUTIFUL PROTOTYPES
+                     </h1>
+                     <h5 class="header__bottom-subtitle">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                     </h5>
+                     <button class="header__bottom-btn">Download</button>
+                  </div>
+                  <div class="header__right-section">
+                     <form class="header-form" action="">
+                        <div class="header-form__inner">
+                           <h3 class="header-form__title">Try Your <span class="header-form__title_accent">FREE</span>
+                              Trial Today</h3>
+                           <div class="header-form__content">
+                              <label class="header-form__label" for="user"></label>
+                              <input class="header-form__input" id="user" type="text" placeholder="Name">
+                           </div>
+                           <div class="header-form__content">
+                              <label class="header-form__label" for="mail"></label>
+                              <input class="header-form__input" id="mail" type="text" placeholder="Email">
+                           </div>
+                           <div class="header-form__content">
+                              <label class="header-form__label" for="password"></label>
+                              <input class="header-form__input" id="password" type="password" placeholder="Password">
+                           </div>
+                        </div>
+                        <button type="submit" class="header-form__send-btn">Get Started</button>
+                     </form>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+</header>
+<div class="wrapper">
+   <main class="main">
+      <section class="social-media">
+         <div class="social-media__wrapper">
+            <div class="container">
+               <div class="social-media__inner">
+                  <div class="social-media__left">
+                     <h4 class="social-media__title">Social Media</h4>
+                     <div class="social-media__text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Aenean euismod bibendum laoreet.
+                     </div>
+                  </div>
+                  <div class="social-media__right">
+                     <a class="social-media__link" href="#">
+                        <img class="social-media__image" src="images/facebook_icon_social.svg" alt="facebook">
+                     </a>
+                     <a class="social-media__link" href="#">
+                        <img class="social-media__image" src="images/twitter_icon_social.svg" alt="twitter">
+                     </a>
+                     <a class="social-media__link" href="#">
+                        <img class="social-media__image" src="images/linkedin_icon_social.svg" alt="linkedin">
+                     </a>
+                     <a class="social-media__link" href="#">
+                        <img class="social-media__image" src="images/pinterest_icon_social.svg" alt="pinterest">
+                     </a>
+                     <a class="social-media__link" href="#">
+                        <img class="social-media__image" src="images/instagram_icon_social.svg" alt="instagram">
+                     </a>
+                     <a class="social-media__link" href="#">
+                        <img class="social-media__image" src="images/github_icon_social.svg" alt="github">
+                     </a>
+                     <a class="social-media__link" href="#">
+                        <img class="social-media__image" src="images/rss_icon_social.svg" alt="rss">
+                     </a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section class="tabs">
          <div class="container">
-            <div class="social-media__inner">
-               <div class="social-media__left">
-                  <h4 class="social-media__title">Social Media</h4>
-                  <div class="social-media__text">
-                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                     Aenean euismod bibendum laoreet.
-                  </div>
+            <div class="tabs-inner">
+               <div class="tabs-nav">
+                  <div class="tabs-nav__item is-active" data-tab-name="tab-1">tab 1</div>
+                  <div class="tabs-nav__item" data-tab-name="tab-2">tab 2</div>
+                  <div class="tabs-nav__item" data-tab-name="tab-3">tab 3</div>
                </div>
-               <div class="social-media__right">
-                  <a class="social-media__link" href="#">
-                     <img class="social-media__image" src="images/facebook_icon_social.svg" alt="facebook">
-                  </a>
-                  <a class="social-media__link" href="#">
-                     <img class="social-media__image" src="images/twitter_icon_social.svg" alt="twitter">
-                  </a>
-                  <a class="social-media__link" href="#">
-                     <img class="social-media__image" src="images/linkedin_icon_social.svg" alt="linkedin">
-                  </a>
-                  <a class="social-media__link" href="#">
-                     <img class="social-media__image" src="images/pinterest_icon_social.svg" alt="pinterest">
-                  </a>
-                  <a class="social-media__link" href="#">
-                     <img class="social-media__image" src="images/instagram_icon_social.svg" alt="instagram">
-                  </a>
-                  <a class="social-media__link" href="#">
-                     <img class="social-media__image" src="images/github_icon_social.svg" alt="github">
-                  </a>
-                  <a class="social-media__link" href="#">
-                     <img class="social-media__image" src="images/rss_icon_social.svg" alt="rss">
-                  </a>
-               </div>
-            </div>
-         </div>
-      </div>
-   </section>
-   <section class="tabs">
-      <div class="container">
-         <div class="tabs-inner">
-            <div class="tabs-nav">
-               <div class="tabs-nav__item is-active" data-tab-name="tab-1">tab 1</div>
-               <div class="tabs-nav__item" data-tab-name="tab-2">tab 2</div>
-               <div class="tabs-nav__item" data-tab-name="tab-3">tab 3</div>
-            </div>
-            <div class="tabs-content">
-               <div class="tabs-content__inner is-active tab-1">
-                  <div class="tabs-content__left">
-                     <h2 class="tabs-content__left-title">Tabs with soft transitioning effect.</h2>
-                     <div class="tabs-content__left-text">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod
-                        <br>
-                        bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra
-                        <br>
-                        justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque
-                        penatibus et magnis dis parturient montes.
-                        <br>
-                        <br>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod <br>
-                        bibendum laoreet
+               <div class="tabs-content">
+                  <div class="tabs-content__inner is-active tab-1">
+                     <div class="tabs-content__left">
+                        <h2 class="tabs-content__left-title">Tabs with soft transitioning effect.</h2>
+                        <div class="tabs-content__left-text">
+                           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod
+                           <br>
+                           bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra
+                           <br>
+                           justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque
+                           penatibus et magnis dis parturient montes.
+                           <br>
+                           <br>
+                           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod <br>
+                           bibendum laoreet
+                        </div>
+                        <button class="tabs-content__left-btn">Download</button>
                      </div>
-                     <button class="tabs-content__left-btn">Download</button>
-                  </div>
-                  <div class="tabs-content__right">
-                     <img class="tabs-content__right-img" src="images/tabs-content-1.png" alt="images">
-                  </div>
-               </div>
-               <div class="tabs-content__inner  tab-2">
-                  <div class="tabs-content__left">
-                     <h2 class="tabs-content__left-title">Tabs with soft transitioning effect.</h2>
-                     <div class="tabs-content__left-text">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod
-                        <br>
-                        bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra
-                        <br>
-                        justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque
-                        penatibus et magnis dis parturient montes.
-                        <br>
-                        <br>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod <br>
-                        bibendum laoreet
+                     <div class="tabs-content__right">
+                        <img class="tabs-content__right-img" src="images/tabs-content-1.png" alt="images">
                      </div>
-                     <button class="tabs-content__left-btn">Download</button>
                   </div>
-                  <div class="tabs-content__right">
-                     <img class="tabs-content__right-img" src="images/tabs-content-2.jpg" alt="images">
-                  </div>
-               </div>
-               <div class="tabs-content__inner  tab-3">
-                  <div class="tabs-content__left">
-                     <h2 class="tabs-content__left-title">Tabs with soft transitioning effect.</h2>
-                     <div class="tabs-content__left-text">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod
-                        <br>
-                        bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra
-                        <br>
-                        justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque
-                        penatibus et magnis dis parturient montes.
-                        <br>
-                        <br>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod <br>
-                        bibendum laoreet
+                  <div class="tabs-content__inner  tab-2">
+                     <div class="tabs-content__left">
+                        <h2 class="tabs-content__left-title">Tabs with soft transitioning effect.</h2>
+                        <div class="tabs-content__left-text">
+                           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod
+                           <br>
+                           bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra
+                           <br>
+                           justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque
+                           penatibus et magnis dis parturient montes.
+                           <br>
+                           <br>
+                           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod <br>
+                           bibendum laoreet
+                        </div>
+                        <button class="tabs-content__left-btn">Download</button>
                      </div>
-                     <button class="tabs-content__left-btn">Download</button>
+                     <div class="tabs-content__right">
+                        <img class="tabs-content__right-img" src="images/tabs-content-2.jpg" alt="images">
+                     </div>
                   </div>
-                  <div class="tabs-content__right">
-                     <img class="tabs-content__right-img" src="images/tabs-content-3.jpg" alt="images">
+                  <div class="tabs-content__inner  tab-3">
+                     <div class="tabs-content__left">
+                        <h2 class="tabs-content__left-title">Tabs with soft transitioning effect.</h2>
+                        <div class="tabs-content__left-text">
+                           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod
+                           <br>
+                           bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra
+                           <br>
+                           justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque
+                           penatibus et magnis dis parturient montes.
+                           <br>
+                           <br>
+                           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod <br>
+                           bibendum laoreet
+                        </div>
+                        <button class="tabs-content__left-btn">Download</button>
+                     </div>
+                     <div class="tabs-content__right">
+                        <img class="tabs-content__right-img" src="images/tabs-content-3.jpg" alt="images">
+                     </div>
                   </div>
                </div>
             </div>
          </div>
-      </div>
-   </section>
-   <section class="awesome">
-      <div class="container">
-         <h2 class="section__title awesome__title">
-            WHY THIS IS AWESOME
-         </h2>
-         <h4 class="section__sub-title">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-         </h4>
-         <div class="awesome-cards">
-            <div class="awesome-card__item">
-               <img class="awesome-card__item-img" src="images/about_icon_1.png" alt="icon">
-               <h4 class="awesome-card__item-title">Thoughtful Design</h4>
-               <div class="awesome-card__item-text">
-                  Lorem ipsum dolor sit amet, consectetur <br> adipiscing <br>
-                  elit. Aenean euismod bibendum laoreet. Proin gravida  dolor sit amet lacus accumsan et viverra.
-               </div>
-            </div>
-            <div class="awesome-card__item">
-               <img class="awesome-card__item-img" src="images/about_icon_2.png" alt="icon">
-               <h4 class="awesome-card__item-title">Thoughtful Design</h4>
-               <div class="awesome-card__item-text">
-                  Lorem ipsum dolor sit amet, consectetur <br> adipiscing <br>
-                  elit. Aenean euismod bibendum laoreet. Proin gravida  dolor sit amet lacus accumsan et viverra.
-               </div>
-            </div>
-            <div class="awesome-card__item">
-               <img class="awesome-card__item-img" src="images/about_icon_3.png" alt="icon">
-               <h4 class="awesome-card__item-title">Thoughtful Design</h4>
-               <div class="awesome-card__item-text">
-                  Lorem ipsum dolor sit amet, consectetur <br> adipiscing <br>
-                  elit. Aenean euismod bibendum laoreet. Proin gravida  dolor sit amet lacus accumsan et viverra.
-               </div>
-            </div>
-         </div>
-      </div>
-   </section>
-   <section class="pricing">
-      <div class="pricing__wrapper">
+      </section>
+      <section class="awesome">
          <div class="container">
-            <h2 class="section__title pricing__title">
-               Pricing options
+            <h2 class="section__title awesome__title">
+               WHY THIS IS AWESOME
             </h2>
             <h4 class="section__sub-title">
                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             </h4>
-            <div class="pricing__inner">
-               <div class="pricing-card pricing-card_padding">
-                  <div class="pricing-card__top">
-                     <div class="pricing-card__title">Basic</div>
-                     <div class="pricing-card__price">$10</div>
-                     <div class="pricing-card__label">Free for life</div>
-                  </div>
-                  <div class="pricing-card__bottom">
-                     <div class="pricing-card__size">1 gb of space</div>
-                     <div class="pricing-card__size">1 gb of space</div>
-                     <div class="pricing-card__size">1 gb of space</div>
-                     <div class="pricing-card__size">1 gb of space</div>
-                     <div class="pricing-card__size">1 gb of space</div>
-                     <div class="pricing-card__size">1 gb of space</div>
+            <div class="awesome-cards">
+               <div class="awesome-card__item">
+                  <img class="awesome-card__item-img" src="images/about_icon_1.png" alt="icon">
+                  <h4 class="awesome-card__item-title">Thoughtful Design</h4>
+                  <div class="awesome-card__item-text">
+                     Lorem ipsum dolor sit amet, consectetur <br> adipiscing <br>
+                     elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra.
                   </div>
                </div>
-
-               <div class="pricing-card pricing-card_shadow">
-                  <div class="pricing-card__top">
-                     <div class="pricing-card__title">Optima</div>
-                     <div class="pricing-card__price">$20</div>
-                     <div class="pricing-card__label">Free for life</div>
-                  </div>
-                  <div class="pricing-card__bottom">
-                     <div class="pricing-card__size">1 gb of space</div>
-                     <div class="pricing-card__size">1 gb of space</div>
-                     <div class="pricing-card__size">1 gb of space</div>
-                     <div class="pricing-card__size">1 gb of space</div>
-                     <div class="pricing-card__size">1 gb of space</div>
-                     <div class="pricing-card__size">1 gb of space</div>
+               <div class="awesome-card__item">
+                  <img class="awesome-card__item-img" src="images/about_icon_2.png" alt="icon">
+                  <h4 class="awesome-card__item-title">Thoughtful Design</h4>
+                  <div class="awesome-card__item-text">
+                     Lorem ipsum dolor sit amet, consectetur <br> adipiscing <br>
+                     elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra.
                   </div>
                </div>
-
-               <div class="pricing-card pricing-card_padding">
-                  <div class="pricing-card__top">
-                     <div class="pricing-card__title">Pro</div>
-                     <div class="pricing-card__price">$30</div>
-                     <div class="pricing-card__label">Free for life</div>
-                  </div>
-                  <div class="pricing-card__bottom">
-                     <div class="pricing-card__size">1 gb of space</div>
-                     <div class="pricing-card__size">1 gb of space</div>
-                     <div class="pricing-card__size">1 gb of space</div>
-                     <div class="pricing-card__size">1 gb of space</div>
-                     <div class="pricing-card__size">1 gb of space</div>
-                     <div class="pricing-card__size">1 gb of space</div>
+               <div class="awesome-card__item">
+                  <img class="awesome-card__item-img" src="images/about_icon_3.png" alt="icon">
+                  <h4 class="awesome-card__item-title">Thoughtful Design</h4>
+                  <div class="awesome-card__item-text">
+                     Lorem ipsum dolor sit amet, consectetur <br> adipiscing <br>
+                     elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra.
                   </div>
                </div>
             </div>
          </div>
-      </div>
-   </section>
-   <section class="comments">
-      <div class="container">
-         <div class="comments__inner">
-            <h2 class="section__title comments__title">
-               what our customers are saying
-            </h2>
-            <h4 class="section__sub-title">
-               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            </h4>
-            <div class="comments-box">
-               <div class="comments-box__item">
-                  <div class="comments__text">
-                     Lorem ipsum dolor sit amet,
-                     consectetur adipisicing elit. Doloribus
-                     accusamus expedita repellat similique
-                     odio aspernatur ex, architecto eaque
-                     quo suscipit.
-                  </div>
-                  <div class="comments-user__info">
-                     <img class="comments-user__icon" src="images/comment-1.png" alt="user-icon">
-                     <div class="comments-user__box">
-                        <div class="comments-user__name">
-                           Davis Rhiel Madsen
-                        </div>
-                        <div class="comments-user__stage">Manager</div>
+      </section>
+      <section class="pricing">
+         <div class="pricing__wrapper">
+            <div class="container">
+               <h2 class="section__title pricing__title">
+                  Pricing options
+               </h2>
+               <h4 class="section__sub-title">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+               </h4>
+               <div class="pricing__inner">
+                  <div class="pricing-card pricing-card_padding">
+                     <div class="pricing-card__top">
+                        <div class="pricing-card__title">Basic</div>
+                        <div class="pricing-card__price">$10</div>
+                        <div class="pricing-card__label">Free for life</div>
+                     </div>
+                     <div class="pricing-card__bottom">
+                        <div class="pricing-card__size">1 gb of space</div>
+                        <div class="pricing-card__size">1 gb of space</div>
+                        <div class="pricing-card__size">1 gb of space</div>
+                        <div class="pricing-card__size">1 gb of space</div>
+                        <div class="pricing-card__size">1 gb of space</div>
+                        <div class="pricing-card__size">1 gb of space</div>
                      </div>
                   </div>
-               </div>
-               <div class="comments-box__item">
-                  <div class="comments__text">
-                     Lorem ipsum dolor sit amet,
-                     consectetur adipisicing elit. Doloribus
-                     accusamus expedita repellat similique
-                     odio aspernatur ex, architecto eaque
-                     quo suscipit.
-                  </div>
-                  <div class="comments-user__info">
-                     <img class="comments-user__icon" src="images/comment-2.png" alt="user-icon">
-                     <div class="comments-user__box">
-                        <div class="comments-user__name">
-                           Jaydon Rosser
-                        </div>
-                        <div class="comments-user__stage">Manager</div>
+
+                  <div class="pricing-card pricing-card_shadow">
+                     <div class="pricing-card__top">
+                        <div class="pricing-card__title">Optima</div>
+                        <div class="pricing-card__price">$20</div>
+                        <div class="pricing-card__label">Free for life</div>
+                     </div>
+                     <div class="pricing-card__bottom">
+                        <div class="pricing-card__size">1 gb of space</div>
+                        <div class="pricing-card__size">1 gb of space</div>
+                        <div class="pricing-card__size">1 gb of space</div>
+                        <div class="pricing-card__size">1 gb of space</div>
+                        <div class="pricing-card__size">1 gb of space</div>
+                        <div class="pricing-card__size">1 gb of space</div>
                      </div>
                   </div>
-               </div>
-               <div class="comments-box__item">
-                  <div class="comments__text">
-                     Lorem ipsum dolor sit amet,
-                     consectetur adipisicing elit. Doloribus
-                     accusamus expedita repellat similique
-                     odio aspernatur ex, architecto eaque
-                     quo suscipit.
-                  </div>
-                  <div class="comments-user__info">
-                     <img class="comments-user__icon" src="images/comment-3.png" alt="user-icon">
-                     <div class="comments-user__box">
-                        <div class="comments-user__name">
-                           Cooper Dorwart
-                        </div>
-                        <div class="comments-user__stage">Manager</div>
+
+                  <div class="pricing-card pricing-card_padding">
+                     <div class="pricing-card__top">
+                        <div class="pricing-card__title">Pro</div>
+                        <div class="pricing-card__price">$30</div>
+                        <div class="pricing-card__label">Free for life</div>
+                     </div>
+                     <div class="pricing-card__bottom">
+                        <div class="pricing-card__size">1 gb of space</div>
+                        <div class="pricing-card__size">1 gb of space</div>
+                        <div class="pricing-card__size">1 gb of space</div>
+                        <div class="pricing-card__size">1 gb of space</div>
+                        <div class="pricing-card__size">1 gb of space</div>
+                        <div class="pricing-card__size">1 gb of space</div>
                      </div>
                   </div>
                </div>
             </div>
          </div>
-      </div>
-   </section>
-   <section class="banner">
-      <div class="banner-wrapper__first">
-         <div class="banner-wrapper__second">
+      </section>
+      <section class="comments">
+         <div class="container">
+            <div class="comments__inner">
+               <h2 class="section__title comments__title">
+                  what our customers are saying
+               </h2>
+               <h4 class="section__sub-title">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+               </h4>
+               <div class="comments-box">
+                  <div class="comments-box__item">
+                     <div class="comments__text">
+                        Lorem ipsum dolor sit amet,
+                        consectetur adipisicing elit. Doloribus
+                        accusamus expedita repellat similique
+                        odio aspernatur ex, architecto eaque
+                        quo suscipit.
+                     </div>
+                     <div class="comments-user__info">
+                        <img class="comments-user__icon" src="images/comment-1.png" alt="user-icon">
+                        <div class="comments-user__box">
+                           <div class="comments-user__name">
+                              Davis Rhiel Madsen
+                           </div>
+                           <div class="comments-user__stage">Manager</div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="comments-box__item">
+                     <div class="comments__text">
+                        Lorem ipsum dolor sit amet,
+                        consectetur adipisicing elit. Doloribus
+                        accusamus expedita repellat similique
+                        odio aspernatur ex, architecto eaque
+                        quo suscipit.
+                     </div>
+                     <div class="comments-user__info">
+                        <img class="comments-user__icon" src="images/comment-2.png" alt="user-icon">
+                        <div class="comments-user__box">
+                           <div class="comments-user__name">
+                              Jaydon Rosser
+                           </div>
+                           <div class="comments-user__stage">Manager</div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="comments-box__item">
+                     <div class="comments__text">
+                        Lorem ipsum dolor sit amet,
+                        consectetur adipisicing elit. Doloribus
+                        accusamus expedita repellat similique
+                        odio aspernatur ex, architecto eaque
+                        quo suscipit.
+                     </div>
+                     <div class="comments-user__info">
+                        <img class="comments-user__icon" src="images/comment-3.png" alt="user-icon">
+                        <div class="comments-user__box">
+                           <div class="comments-user__name">
+                              Cooper Dorwart
+                           </div>
+                           <div class="comments-user__stage">Manager</div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section class="banner">
+         <div class="banner-wrapper">
             <div class="container">
                <h2 class="section__title banner__title">
                   STYLISH AXURE DESIGN
@@ -308,9 +387,8 @@
                <button class="banner__btn">Download</button>
             </div>
          </div>
-      </div>
-   </section>
-
+      </section>
+   </main>
    <footer class="footer">
       <div class="footer-wrapper">
          <div class="container">
@@ -361,6 +439,7 @@
          </div>
       </div>
    </footer>
+</div>
 
 
    <script src="js/main.js"></script>

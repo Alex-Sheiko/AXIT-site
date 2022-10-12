@@ -1,4 +1,4 @@
-.banner-wrapper__second{
+.banner-wrapper{
     position: relative;
     background-image: url(../images/banner-bg.jpg);
     background-position: 0 0;
@@ -8,7 +8,7 @@
     z-index: 9999;
 }
 
-.banner-wrapper__second:before{
+.banner-wrapper:before{
     content: "";
     position: absolute;
     width: 100%;
