@@ -23,3 +23,23 @@ function initTabs (){
 }
 
 initTabs();
+
+const myAtropos = Atropos({
+    el: '.my-atropos',
+    shadow:false,
+    highlight: false
+});
+
+const myAtropos2 = Atropos({
+    el: '.my-atropos-2',
+    shadow:false,
+    highlight: false
+});
+
+
+const myAtropos3 = Atropos({
+    el: '.my-atropos-3',
+    shadow:false,
+    highlight: false
+});
+

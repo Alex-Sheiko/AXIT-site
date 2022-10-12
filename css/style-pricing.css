@@ -6,6 +6,7 @@
 
 .pricing__inner {
     display: flex;
+    justify-content: space-between;
 }
 
 .pricing-card {
@@ -80,4 +81,10 @@
 
 .pricing-card_padding{
     padding-top: 20px;
+}
+
+.my-atropos,
+.my-atropos-2,
+.my-atropos-3{
+    width: 370px;
 }
