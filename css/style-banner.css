@@ -46,6 +46,7 @@
     padding: 14.5px 0;
     width: 370px;
     opacity: 1;
+    cursor: pointer;
 }
 
 .banner__btn:hover{
