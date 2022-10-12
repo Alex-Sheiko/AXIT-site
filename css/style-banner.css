@@ -6,6 +6,7 @@
     background-repeat: no-repeat;
     padding: 100px 0 50px;
     z-index: 9999;
+    margin-bottom: 106px;
 }
 
 .banner-wrapper:before{
@@ -20,9 +21,6 @@
     z-index: -1;
 }
 
-.banner-wrapper__first{
-
-}
 
 .banner__title{
     opacity: 1;
