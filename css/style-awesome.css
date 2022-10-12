@@ -51,16 +51,17 @@ html, body {
     padding: 0 15px
 }
 
-.awesome__title {
+.section__title {
     font-weight: 400;
     font-size: 36px;
     line-height: 42px;
     text-align: center;
-    margin: 62px 0 100px;
+    margin: 0 0 100px;
     position: relative;
+    text-transform: uppercase;
 }
 
-.awesome__title::after{
+.section__title::after{
     content: '';
     position: absolute;
     width: 170px;
@@ -68,12 +69,17 @@ html, body {
     left: 50%;
     transform: translate(-50%, 0);
     bottom: -62px;
+
 }
 
-.awesome__text {
+.section__sub-title {
     color: #86878B;
     text-align: center;
     margin-bottom: 71px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
 }
 
 .awesome-cards {

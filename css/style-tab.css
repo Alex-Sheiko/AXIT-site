@@ -84,3 +84,14 @@
     border: transparent;
     cursor: pointer;
 }
+
+.tabs .tabs-inner .tabs-content__left .tabs-content__left-btn:hover{
+    background-color: #AB4949;
+    transition: ease 0.4s;
+}
+
+.tabs .tabs-inner .tabs-content__left .tabs-content__left-btn:active{
+    background-color: #EC7979;
+    box-shadow: inset 0 0 10px #AB4949;
+    transition: ease 0.4s;
+}
