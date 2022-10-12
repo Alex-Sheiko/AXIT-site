@@ -39,3 +39,10 @@
 .social-media__link + .social-media__link{
     margin-left: 30px;
 }
+
+.social-media__link:hover svg path{
+    transition: ease 0.4s;
+    fill: #000000;
+    transform: scale(1.1, 1.1);
+}
+
