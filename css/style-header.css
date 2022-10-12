@@ -5,7 +5,7 @@
 .header__top{
     max-width: 1255px;
     margin: 0 auto;
-    padding: 22px 15px;
+    /*padding: 22px 15px;*/
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -22,11 +22,24 @@
     font-size: 14px;
     line-height: 19px;
     text-transform: capitalize;
+    width: 114px;
+    text-align: center;
+    padding: 28.5px 0;
 }
 
-.menu__item + .menu__item{
-    margin-left: 64px;
+.menu__item:hover{
+    background: #EC7979;
+    transition: ease 0.4s;
 }
+
+.menu__item:active{
+    transition: ease 0.4s;
+    background: #AB4949;
+}
+
+/*.menu__item + .menu__item{*/
+/*    margin-left: 64px;*/
+/*}*/
 
 .menu__link{
     color: #ffffff;

@@ -43,3 +43,6 @@ const myAtropos3 = Atropos({
     highlight: false
 });
 
+AOS.init();
+
+
