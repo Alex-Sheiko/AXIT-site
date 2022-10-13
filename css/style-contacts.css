@@ -82,6 +82,7 @@
     color: #FFFFFF;
     margin: 0 auto;
     cursor: pointer;
+    border: none;
 }
 
 .contacts__btn:hover{

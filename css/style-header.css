@@ -131,6 +131,7 @@
     cursor: pointer;
     width: 270px;
     padding: 14.5px;
+    background-color: transparent;
 }
 
 .header__bottom-btn:hover{
@@ -222,6 +223,7 @@
     width: 100%;
     padding: 20px 20px;
     cursor: pointer;
+    border: none;
 }
 
 .header-form__send-btn:hover{

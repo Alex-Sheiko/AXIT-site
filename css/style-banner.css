@@ -47,6 +47,7 @@
     width: 370px;
     opacity: 1;
     cursor: pointer;
+    background-color: transparent;
 }
 
 .banner__btn:hover{
