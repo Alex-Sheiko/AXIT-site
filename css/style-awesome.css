@@ -44,6 +44,10 @@ html, body {
     line-height: 21px;
 }
 
+.body._lock {
+    overflow: hidden;
+}
+
 
 .container {
     max-width: 1200px;

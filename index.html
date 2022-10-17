@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="css/style-comments.css">
     <link rel="stylesheet" href="css/style-banner.css">
     <link rel="stylesheet" href="css/style-contacts.css">
+    <link rel="stylesheet" href="css/style-media.css">
     <link rel="stylesheet" href="css/style-footer.css">
     <link rel="stylesheet" href="css/style-atropos.css">
     <link rel="stylesheet" href="css/aos.css">
@@ -26,30 +27,33 @@
             <a class="logo" href="#">
                 <img class="logo__image" src="images/logo.png" alt="logo">
             </a>
+            <div class="menu__icon">
+                <span></span>
+            </div>
             <nav class="menu">
                 <ul class="menu__list">
                     <li class="menu__item">
-                        <a class="menu__link" href="#">
+                        <a data-goto=".tabs_mod" class="menu__link" href="#">
                             Features
                         </a>
                     </li>
                     <li class="menu__item">
-                        <a class="menu__link" href="#">
+                        <a data-goto=".awesome_mod" class="menu__link" href="#">
                             About
                         </a>
                     </li>
                     <li class="menu__item">
-                        <a class="menu__link" href="#">
+                        <a data-goto=".pricing_mod" class="menu__link" href="#">
                             Pricing
                         </a>
                     </li>
                     <li class="menu__item">
-                        <a class="menu__link" href="#">
+                        <a data-goto=".comments_mod" class="menu__link" href="#">
                             Reviews
                         </a>
                     </li>
                     <li class="menu__item">
-                        <a class="menu__link" href="#">
+                        <a data-goto=".contacts_mod" class="menu__link" href="#">
                             Contact
                         </a>
                     </li>
@@ -75,7 +79,7 @@
                         </div>
                     </div>
                     <div class="header__right-section">
-                        <div data-aos="fade-left" data-aos-duration="2000">
+                        <div class="fade-container" data-aos="fade-left" data-aos-duration="2000">
                             <form class="header-form" action="">
                                 <div class="header-form__inner">
                                     <h3 class="header-form__title">Try Your <span
@@ -114,6 +118,10 @@
                             <h4 class="social-media__title">Social Media</h4>
                             <div class="social-media__text">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Aenean euismod bibendum laoreet.
+                            </div>
+                            <div class="social-media__text-mob">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br>
                                 Aenean euismod bibendum laoreet.
                             </div>
                         </div>
@@ -177,7 +185,7 @@
                 </div>
             </div>
         </section>
-        <section class="tabs">
+        <section class="tabs tabs_mod">
             <div class="container">
                 <div class="tabs-inner">
                     <div class="tabs-nav">
@@ -185,7 +193,7 @@
                         <div class="tabs-nav__item" data-tab-name="tab-2">tab 2</div>
                         <div class="tabs-nav__item" data-tab-name="tab-3">tab 3</div>
                     </div>
-                    <div class="tabs-content">
+                    <div class="tabs-content ">
                         <div class="tabs-content__inner is-active tab-1">
                             <div class="tabs-content__left">
                                 <h2 class="tabs-content__left-title">Tabs with soft transitioning effect.</h2>
@@ -253,316 +261,316 @@
                 </div>
             </div>
         </section>
-        <section class="awesome">
-            <div class="container">
-                <div data-aos="zoom-out-up" data-aos-duration="1000">
-                    <h2 class="section__title awesome__title">
-                        WHY THIS IS AWESOME
-                    </h2>
-                </div>
-                <h4 class="section__sub-title">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </h4>
-                <div class="awesome-cards">
-                    <div class="awesome-card__item">
-                        <img class="awesome-card__item-img" src="images/about_icon_1.png" alt="icon">
-                        <h4 class="awesome-card__item-title">Thoughtful Design</h4>
-                        <div class="awesome-card__item-text">
-                            Lorem ipsum dolor sit amet, consectetur <br> adipiscing <br>
-                            elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et
-                            viverra.
-                        </div>
-                    </div>
-                    <div class="awesome-card__item">
-                        <img class="awesome-card__item-img" src="images/about_icon_2.png" alt="icon">
-                        <h4 class="awesome-card__item-title">Thoughtful Design</h4>
-                        <div class="awesome-card__item-text">
-                            Lorem ipsum dolor sit amet, consectetur <br> adipiscing <br>
-                            elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et
-                            viverra.
-                        </div>
-                    </div>
-                    <div class="awesome-card__item">
-                        <img class="awesome-card__item-img" src="images/about_icon_3.png" alt="icon">
-                        <h4 class="awesome-card__item-title">Thoughtful Design</h4>
-                        <div class="awesome-card__item-text">
-                            Lorem ipsum dolor sit amet, consectetur <br> adipiscing <br>
-                            elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et
-                            viverra.
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="pricing">
-            <div class="pricing__wrapper">
-                <div class="container">
-                    <div data-aos="zoom-out-up" data-aos-duration="1000">
-                        <h2 class="section__title pricing__title">
-                            Pricing options
-                        </h2>
-                    </div>
-                    <h4 class="section__sub-title">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    </h4>
-                    <div class="pricing__inner">
-                        <div class="atropos my-atropos">
-                            <div class="atropos-scale">
-                                <div class="atropos-rotate">
-                                    <div class="atropos-inner">
-                                        <div class="pricing-card pricing-card_padding">
-                                            <div class="pricing-card__top">
-                                                <div class="pricing-card__title">Basic</div>
-                                                <div class="pricing-card__price">$10</div>
-                                                <div class="pricing-card__label">Free for life</div>
-                                            </div>
-                                            <div class="pricing-card__bottom">
-                                                <div class="pricing-card__size">1 gb of space</div>
-                                                <div class="pricing-card__size">1 gb of space</div>
-                                                <div class="pricing-card__size">1 gb of space</div>
-                                                <div class="pricing-card__size">1 gb of space</div>
-                                                <div class="pricing-card__size">1 gb of space</div>
-                                                <div class="pricing-card__size">1 gb of space</div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="atropos my-atropos-2">
-                            <div class="atropos-scale">
-                                <div class="atropos-rotate">
-                                    <div class="atropos-inner">
-                                        <div class="pricing-card pricing-card_shadow">
-                                            <div class="pricing-card__top">
-                                                <div class="pricing-card__title">Optima</div>
-                                                <div class="pricing-card__price">$20</div>
-                                                <div class="pricing-card__label">Free for life</div>
-                                            </div>
-                                            <div class="pricing-card__bottom">
-                                                <div class="pricing-card__size">1 gb of space</div>
-                                                <div class="pricing-card__size">1 gb of space</div>
-                                                <div class="pricing-card__size">1 gb of space</div>
-                                                <div class="pricing-card__size">1 gb of space</div>
-                                                <div class="pricing-card__size">1 gb of space</div>
-                                                <div class="pricing-card__size">1 gb of space</div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+<!--        <section class="awesome">-->
+<!--            <div class="container">-->
+<!--                <div data-aos="zoom-out-up" data-aos-duration="1000">-->
+<!--                    <h2 class="section__title awesome__title awesome_mod">-->
+<!--                        WHY THIS IS AWESOME-->
+<!--                    </h2>-->
+<!--                </div>-->
+<!--                <h4 class="section__sub-title">-->
+<!--                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.-->
+<!--                </h4>-->
+<!--                <div class="awesome-cards">-->
+<!--                    <div class="awesome-card__item">-->
+<!--                        <img class="awesome-card__item-img" src="images/about_icon_1.png" alt="icon">-->
+<!--                        <h4 class="awesome-card__item-title">Thoughtful Design</h4>-->
+<!--                        <div class="awesome-card__item-text">-->
+<!--                            Lorem ipsum dolor sit amet, consectetur <br> adipiscing <br>-->
+<!--                            elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et-->
+<!--                            viverra.-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                    <div class="awesome-card__item">-->
+<!--                        <img class="awesome-card__item-img" src="images/about_icon_2.png" alt="icon">-->
+<!--                        <h4 class="awesome-card__item-title">Thoughtful Design</h4>-->
+<!--                        <div class="awesome-card__item-text">-->
+<!--                            Lorem ipsum dolor sit amet, consectetur <br> adipiscing <br>-->
+<!--                            elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et-->
+<!--                            viverra.-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                    <div class="awesome-card__item">-->
+<!--                        <img class="awesome-card__item-img" src="images/about_icon_3.png" alt="icon">-->
+<!--                        <h4 class="awesome-card__item-title">Thoughtful Design</h4>-->
+<!--                        <div class="awesome-card__item-text">-->
+<!--                            Lorem ipsum dolor sit amet, consectetur <br> adipiscing <br>-->
+<!--                            elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et-->
+<!--                            viverra.-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </section>-->
+<!--        <section class="pricing">-->
+<!--            <div class="pricing__wrapper">-->
+<!--                <div class="container">-->
+<!--                    <div data-aos="zoom-out-up" data-aos-duration="1000">-->
+<!--                        <h2 class="section__title pricing__title pricing_mod">-->
+<!--                            Pricing options-->
+<!--                        </h2>-->
+<!--                    </div>-->
+<!--                    <h4 class="section__sub-title">-->
+<!--                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.-->
+<!--                    </h4>-->
+<!--                    <div class="pricing__inner">-->
+<!--                        <div class="atropos my-atropos">-->
+<!--                            <div class="atropos-scale">-->
+<!--                                <div class="atropos-rotate">-->
+<!--                                    <div class="atropos-inner">-->
+<!--                                        <div class="pricing-card pricing-card_padding">-->
+<!--                                            <div class="pricing-card__top">-->
+<!--                                                <div class="pricing-card__title">Basic</div>-->
+<!--                                                <div class="pricing-card__price">$10</div>-->
+<!--                                                <div class="pricing-card__label">Free for life</div>-->
+<!--                                            </div>-->
+<!--                                            <div class="pricing-card__bottom">-->
+<!--                                                <div class="pricing-card__size">1 gb of space</div>-->
+<!--                                                <div class="pricing-card__size">1 gb of space</div>-->
+<!--                                                <div class="pricing-card__size">1 gb of space</div>-->
+<!--                                                <div class="pricing-card__size">1 gb of space</div>-->
+<!--                                                <div class="pricing-card__size">1 gb of space</div>-->
+<!--                                                <div class="pricing-card__size">1 gb of space</div>-->
+<!--                                            </div>-->
+<!--                                        </div>-->
+<!--                                    </div>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                        <div class="atropos my-atropos-2">-->
+<!--                            <div class="atropos-scale">-->
+<!--                                <div class="atropos-rotate">-->
+<!--                                    <div class="atropos-inner">-->
+<!--                                        <div class="pricing-card pricing-card_shadow">-->
+<!--                                            <div class="pricing-card__top">-->
+<!--                                                <div class="pricing-card__title">Optima</div>-->
+<!--                                                <div class="pricing-card__price">$20</div>-->
+<!--                                                <div class="pricing-card__label">Free for life</div>-->
+<!--                                            </div>-->
+<!--                                            <div class="pricing-card__bottom">-->
+<!--                                                <div class="pricing-card__size">1 gb of space</div>-->
+<!--                                                <div class="pricing-card__size">1 gb of space</div>-->
+<!--                                                <div class="pricing-card__size">1 gb of space</div>-->
+<!--                                                <div class="pricing-card__size">1 gb of space</div>-->
+<!--                                                <div class="pricing-card__size">1 gb of space</div>-->
+<!--                                                <div class="pricing-card__size">1 gb of space</div>-->
+<!--                                            </div>-->
+<!--                                        </div>-->
+<!--                                    </div>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                        </div>-->
 
-                        <div class="atropos my-atropos-3">
-                            <div class="atropos-scale">
-                                <div class="atropos-rotate">
-                                    <div class="atropos-inner">
-                                        <div class="pricing-card pricing-card_padding">
-                                            <div class="pricing-card__top">
-                                                <div class="pricing-card__title">Pro</div>
-                                                <div class="pricing-card__price">$30</div>
-                                                <div class="pricing-card__label">Free for life</div>
-                                            </div>
-                                            <div class="pricing-card__bottom">
-                                                <div class="pricing-card__size">1 gb of space</div>
-                                                <div class="pricing-card__size">1 gb of space</div>
-                                                <div class="pricing-card__size">1 gb of space</div>
-                                                <div class="pricing-card__size">1 gb of space</div>
-                                                <div class="pricing-card__size">1 gb of space</div>
-                                                <div class="pricing-card__size">1 gb of space</div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+<!--                        <div class="atropos my-atropos-3">-->
+<!--                            <div class="atropos-scale">-->
+<!--                                <div class="atropos-rotate">-->
+<!--                                    <div class="atropos-inner">-->
+<!--                                        <div class="pricing-card pricing-card_padding">-->
+<!--                                            <div class="pricing-card__top">-->
+<!--                                                <div class="pricing-card__title">Pro</div>-->
+<!--                                                <div class="pricing-card__price">$30</div>-->
+<!--                                                <div class="pricing-card__label">Free for life</div>-->
+<!--                                            </div>-->
+<!--                                            <div class="pricing-card__bottom">-->
+<!--                                                <div class="pricing-card__size">1 gb of space</div>-->
+<!--                                                <div class="pricing-card__size">1 gb of space</div>-->
+<!--                                                <div class="pricing-card__size">1 gb of space</div>-->
+<!--                                                <div class="pricing-card__size">1 gb of space</div>-->
+<!--                                                <div class="pricing-card__size">1 gb of space</div>-->
+<!--                                                <div class="pricing-card__size">1 gb of space</div>-->
+<!--                                            </div>-->
+<!--                                        </div>-->
+<!--                                    </div>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                        </div>-->
 
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="comments">
-            <div class="container">
-                <div class="comments__inner">
-                    <div data-aos="zoom-out-up" data-aos-duration="1000">
-                        <h2 class="section__title comments__title">
-                            what our customers are saying
-                        </h2>
-                    </div>
-                    <h4 class="section__sub-title">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    </h4>
-                    <div class="comments-box">
-                        <div class="comments-box__item">
-                            <div class="comments__text">
-                                Lorem ipsum dolor sit amet,
-                                consectetur adipisicing elit. Doloribus
-                                accusamus expedita repellat similique
-                                odio aspernatur ex, architecto eaque
-                                quo suscipit.
-                            </div>
-                            <div class="comments-user__info">
-                                <img class="comments-user__icon" src="images/comment-1.png" alt="user-icon">
-                                <div class="comments-user__box">
-                                    <div class="comments-user__name">
-                                        Davis Rhiel Madsen
-                                    </div>
-                                    <div class="comments-user__stage">Manager</div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="comments-box__item">
-                            <div class="comments__text">
-                                Lorem ipsum dolor sit amet,
-                                consectetur adipisicing elit. Doloribus
-                                accusamus expedita repellat similique
-                                odio aspernatur ex, architecto eaque
-                                quo suscipit.
-                            </div>
-                            <div class="comments-user__info">
-                                <img class="comments-user__icon" src="images/comment-2.png" alt="user-icon">
-                                <div class="comments-user__box">
-                                    <div class="comments-user__name">
-                                        Jaydon Rosser
-                                    </div>
-                                    <div class="comments-user__stage">Manager</div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="comments-box__item">
-                            <div class="comments__text">
-                                Lorem ipsum dolor sit amet,
-                                consectetur adipisicing elit. Doloribus
-                                accusamus expedita repellat similique
-                                odio aspernatur ex, architecto eaque
-                                quo suscipit.
-                            </div>
-                            <div class="comments-user__info">
-                                <img class="comments-user__icon" src="images/comment-3.png" alt="user-icon">
-                                <div class="comments-user__box">
-                                    <div class="comments-user__name">
-                                        Cooper Dorwart
-                                    </div>
-                                    <div class="comments-user__stage">Manager</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="banner">
-            <div class="banner-wrapper">
-                <div class="container">
-                    <div class="banner__inner">
-                        <div data-aos="zoom-out-up" data-aos-duration="1000">
-                            <h2 class="section__title banner__title">
-                                STYLISH AXURE DESIGN
-                            </h2>
-                        </div>
-                        <h4 class="section__sub-title banner__sub-title">
-                            Use the sections you need, remove the ones you don't. Create gorgeous prototypes faster than
-                            ever!
-                        </h4>
-                        <button class="banner__btn">Download</button>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="contacts">
-            <div class="contacts-wrapper">
-                <div class="container">
-                    <div class="contacts__inner">
-                        <div data-aos="zoom-out-up" data-aos-duration="1000">
-                            <h2 class="section__title contacts__title">
-                                contact us
-                            </h2>
-                        </div>
-                        <h4 class="section__sub-title">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        </h4>
-                        <form class="contacts-form" action="">
-                            <div class="contacts__box">
-                                <div class="contacts__left-item">
-                                    <div class="contacts-form__control">
-                                        <label class="contacts-form__label" for="user-name"></label>
-                                        <input class="contacts-form__input" type="text" id="user-name"
-                                               placeholder="Name">
-                                    </div>
-                                    <div class="contacts-form__control">
-                                        <label class="contacts-form__label" for="user-mail"></label>
-                                        <input class="contacts-form__input" type="email" id="user-mail"
-                                               placeholder="Email">
-                                    </div>
-                                    <div class="contacts-form__control">
-                                        <label class="contacts-form__label" for="user-password"></label>
-                                        <input class="contacts-form__input" type="password" id="user-password"
-                                               placeholder="Password">
-                                    </div>
-                                </div>
-                                <div class="contacts__right-item">
-                                    <label class="contacts__label" for="message"></label>
-                                    <textarea class="contacts__text" name="" id="message" cols="30" rows="10"
-                                              placeholder="Message"></textarea>
-                                </div>
-                            </div>
-                            <button class="contacts__btn" type="submit">Send Message</button>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </main>
-    <footer class="footer">
-        <div class="footer-wrapper">
-            <div class="container">
-                <div class="footer-inner">
-                    <div class="footer-social">
-                        <div class="footer-social__item">
-                            <a class="footer-social__link" href="#">
-                                <img class="footer-social__image" src="images/facebook_icon.png" alt="facebook">
-                            </a>
-                        </div>
-                        <div class="footer-social__item">
-                            <a class="footer-social__link" href="#">
-                                <img class="footer-social__image" src="images/twitter_icon.png" alt="twitter">
-                            </a>
-                        </div>
-                        <div class="footer-social__item">
-                            <a class="footer-social__link" href="#">
-                                <img class="footer-social__image" src="images/linkedin_icon.png" alt="linkedin">
-                            </a>
-                        </div>
-                        <div class="footer-social__item">
-                            <a class="footer-social__link" href="#">
-                                <img class="footer-social__image" src="images/pinterest_icon.png" alt="pinterest">
-                            </a>
-                        </div>
-                        <div class="footer-social__item">
-                            <a class="footer-social__link" href="#">
-                                <img class="footer-social__image" src="images/instagram_icon.png" alt="instagram">
-                            </a>
-                        </div>
-                        <div class="footer-social__item">
-                            <a class="footer-social__link" href="#">
-                                <img class="footer-social__image" src="images/github_icon.png" alt="github">
-                            </a>
-                        </div>
-                        <div class="footer-social__item">
-                            <a class="footer-social__link" href="#">
-                                <img class="footer-social__image" src="images/rss_icon.png" alt="rss">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="footer-copyright">
-                        <div class="footer-copyright__text">
-                            © 2015 Axure Themes
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </section>-->
+<!--        <section class="comments">-->
+<!--            <div class="container">-->
+<!--                <div class="comments__inner">-->
+<!--                    <div data-aos="zoom-out-up" data-aos-duration="1000">-->
+<!--                        <h2 class="section__title comments__title comments_mod">-->
+<!--                            what our customers are saying-->
+<!--                        </h2>-->
+<!--                    </div>-->
+<!--                    <h4 class="section__sub-title">-->
+<!--                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.-->
+<!--                    </h4>-->
+<!--                    <div class="comments-box">-->
+<!--                        <div class="comments-box__item">-->
+<!--                            <div class="comments__text">-->
+<!--                                Lorem ipsum dolor sit amet,-->
+<!--                                consectetur adipisicing elit. Doloribus-->
+<!--                                accusamus expedita repellat similique-->
+<!--                                odio aspernatur ex, architecto eaque-->
+<!--                                quo suscipit.-->
+<!--                            </div>-->
+<!--                            <div class="comments-user__info">-->
+<!--                                <img class="comments-user__icon" src="images/comment-1.png" alt="user-icon">-->
+<!--                                <div class="comments-user__box">-->
+<!--                                    <div class="comments-user__name">-->
+<!--                                        Davis Rhiel Madsen-->
+<!--                                    </div>-->
+<!--                                    <div class="comments-user__stage">Manager</div>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                        <div class="comments-box__item">-->
+<!--                            <div class="comments__text">-->
+<!--                                Lorem ipsum dolor sit amet,-->
+<!--                                consectetur adipisicing elit. Doloribus-->
+<!--                                accusamus expedita repellat similique-->
+<!--                                odio aspernatur ex, architecto eaque-->
+<!--                                quo suscipit.-->
+<!--                            </div>-->
+<!--                            <div class="comments-user__info">-->
+<!--                                <img class="comments-user__icon" src="images/comment-2.png" alt="user-icon">-->
+<!--                                <div class="comments-user__box">-->
+<!--                                    <div class="comments-user__name">-->
+<!--                                        Jaydon Rosser-->
+<!--                                    </div>-->
+<!--                                    <div class="comments-user__stage">Manager</div>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                        <div class="comments-box__item">-->
+<!--                            <div class="comments__text">-->
+<!--                                Lorem ipsum dolor sit amet,-->
+<!--                                consectetur adipisicing elit. Doloribus-->
+<!--                                accusamus expedita repellat similique-->
+<!--                                odio aspernatur ex, architecto eaque-->
+<!--                                quo suscipit.-->
+<!--                            </div>-->
+<!--                            <div class="comments-user__info">-->
+<!--                                <img class="comments-user__icon" src="images/comment-3.png" alt="user-icon">-->
+<!--                                <div class="comments-user__box">-->
+<!--                                    <div class="comments-user__name">-->
+<!--                                        Cooper Dorwart-->
+<!--                                    </div>-->
+<!--                                    <div class="comments-user__stage">Manager</div>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </section>-->
+<!--        <section class="banner">-->
+<!--            <div class="banner-wrapper">-->
+<!--                <div class="container">-->
+<!--                    <div class="banner__inner">-->
+<!--                        <div data-aos="zoom-out-up" data-aos-duration="1000">-->
+<!--                            <h2 class="section__title banner__title">-->
+<!--                                STYLISH AXURE DESIGN-->
+<!--                            </h2>-->
+<!--                        </div>-->
+<!--                        <h4 class="section__sub-title banner__sub-title">-->
+<!--                            Use the sections you need, remove the ones you don't. Create gorgeous prototypes faster than-->
+<!--                            ever!-->
+<!--                        </h4>-->
+<!--                        <button class="banner__btn">Download</button>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </section>-->
+<!--        <section class="contacts">-->
+<!--            <div class="contacts-wrapper">-->
+<!--                <div class="container">-->
+<!--                    <div class="contacts__inner">-->
+<!--                        <div data-aos="zoom-out-up" data-aos-duration="1000">-->
+<!--                            <h2 class="section__title contacts__title contacts_mod">-->
+<!--                                contact us-->
+<!--                            </h2>-->
+<!--                        </div>-->
+<!--                        <h4 class="section__sub-title">-->
+<!--                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.-->
+<!--                        </h4>-->
+<!--                        <form class="contacts-form" action="">-->
+<!--                            <div class="contacts__box">-->
+<!--                                <div class="contacts__left-item">-->
+<!--                                    <div class="contacts-form__control">-->
+<!--                                        <label class="contacts-form__label" for="user-name"></label>-->
+<!--                                        <input class="contacts-form__input" type="text" id="user-name"-->
+<!--                                               placeholder="Name">-->
+<!--                                    </div>-->
+<!--                                    <div class="contacts-form__control">-->
+<!--                                        <label class="contacts-form__label" for="user-mail"></label>-->
+<!--                                        <input class="contacts-form__input" type="email" id="user-mail"-->
+<!--                                               placeholder="Email">-->
+<!--                                    </div>-->
+<!--                                    <div class="contacts-form__control">-->
+<!--                                        <label class="contacts-form__label" for="user-password"></label>-->
+<!--                                        <input class="contacts-form__input" type="password" id="user-password"-->
+<!--                                               placeholder="Password">-->
+<!--                                    </div>-->
+<!--                                </div>-->
+<!--                                <div class="contacts__right-item">-->
+<!--                                    <label class="contacts__label" for="message"></label>-->
+<!--                                    <textarea class="contacts__text" name="" id="message" cols="30" rows="10"-->
+<!--                                              placeholder="Message"></textarea>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                            <button class="contacts__btn" type="submit">Send Message</button>-->
+<!--                        </form>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </section>-->
+<!--    </main>-->
+<!--    <footer class="footer">-->
+<!--        <div class="footer-wrapper">-->
+<!--            <div class="container">-->
+<!--                <div class="footer-inner">-->
+<!--                    <div class="footer-social">-->
+<!--                        <div class="footer-social__item">-->
+<!--                            <a class="footer-social__link" href="#">-->
+<!--                                <img class="footer-social__image" src="images/facebook_icon.png" alt="facebook">-->
+<!--                            </a>-->
+<!--                        </div>-->
+<!--                        <div class="footer-social__item">-->
+<!--                            <a class="footer-social__link" href="#">-->
+<!--                                <img class="footer-social__image" src="images/twitter_icon.png" alt="twitter">-->
+<!--                            </a>-->
+<!--                        </div>-->
+<!--                        <div class="footer-social__item">-->
+<!--                            <a class="footer-social__link" href="#">-->
+<!--                                <img class="footer-social__image" src="images/linkedin_icon.png" alt="linkedin">-->
+<!--                            </a>-->
+<!--                        </div>-->
+<!--                        <div class="footer-social__item">-->
+<!--                            <a class="footer-social__link" href="#">-->
+<!--                                <img class="footer-social__image" src="images/pinterest_icon.png" alt="pinterest">-->
+<!--                            </a>-->
+<!--                        </div>-->
+<!--                        <div class="footer-social__item">-->
+<!--                            <a class="footer-social__link" href="#">-->
+<!--                                <img class="footer-social__image" src="images/instagram_icon.png" alt="instagram">-->
+<!--                            </a>-->
+<!--                        </div>-->
+<!--                        <div class="footer-social__item">-->
+<!--                            <a class="footer-social__link" href="#">-->
+<!--                                <img class="footer-social__image" src="images/github_icon.png" alt="github">-->
+<!--                            </a>-->
+<!--                        </div>-->
+<!--                        <div class="footer-social__item">-->
+<!--                            <a class="footer-social__link" href="#">-->
+<!--                                <img class="footer-social__image" src="images/rss_icon.png" alt="rss">-->
+<!--                            </a>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                    <div class="footer-copyright">-->
+<!--                        <div class="footer-copyright__text">-->
+<!--                            © 2015 Axure Themes-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </footer>-->
 </div>
 
 <script src="js/atropos.js"></script>

@@ -16,6 +16,7 @@
     font-size: 24px;
     line-height: 33px;
     margin-bottom: 18px;
+    transition: all 0.4s ease;
 }
 
 .social-media__text {
@@ -25,6 +26,7 @@
     font-size: 18px;
     line-height: 21px;
     color: #86878B;
+    transition: all 0.4s ease;
 }
 
 .social-media__left{
@@ -36,6 +38,10 @@
     display: flex;
 }
 
+.social-media__image{
+    transition: all 0.4s ease;
+}
+
 .social-media__link + .social-media__link{
     margin-left: 30px;
 }
@@ -44,5 +50,9 @@
     transition: ease 0.4s;
     fill: #000000;
     transform: scale(1.1, 1.1);
+}
+
+.social-media__text-mob{
+    display: none;
 }
 
