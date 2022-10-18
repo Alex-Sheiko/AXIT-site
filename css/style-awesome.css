@@ -84,16 +84,18 @@ html, body {
     font-weight: 400;
     font-size: 18px;
     line-height: 21px;
+    transition: all 0.4s ease;
+}
+
+.awesome__inner{
+    margin-bottom: 60px;
 }
 
 .awesome-cards {
     margin-bottom: 58px;
+    display: flex;
 }
 
-.awesome-card__item {
-    display: inline-block;
-    width: 370px;
-}
 
 .awesome-card__item + .awesome-card__item{
     margin-left: 25px;
@@ -101,6 +103,7 @@ html, body {
 
 .awesome-card__item-img {
     margin: 0 auto 33px;
+    transition: all 0.4s ease;
 }
 
 .awesome-card__item-title {
@@ -110,9 +113,11 @@ html, body {
     line-height: 33px;
     font-family: 'Open Sans', sans-serif;
     margin-bottom: 42px;
+    transition: all 0.4s ease;
 }
 
 .awesome-card__item-text {
     text-align: center;
     font-size: 19px;
+    transition: all 0.4s ease;
 }
