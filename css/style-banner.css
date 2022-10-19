@@ -1,7 +1,7 @@
 .banner-wrapper{
     position: relative;
     background-image: url(../images/banner-bg.jpg);
-    background-position: 0 0;
+    background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     padding: 100px 0 50px;
@@ -48,6 +48,7 @@
     opacity: 1;
     cursor: pointer;
     background-color: transparent;
+    transition: all 0.4s ease;
 }
 
 .banner__btn:hover{

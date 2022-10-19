@@ -44,7 +44,7 @@ html, body {
     line-height: 21px;
 }
 
-.body._lock {
+body._lock {
     overflow: hidden;
 }
 

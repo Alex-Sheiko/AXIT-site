@@ -116,5 +116,38 @@ if (menuLinks.length>0){
     }
 }
 
+const swiper = new Swiper('.swiper', {
+    // Optional parameters
+    direction: 'horizontal',
+    loop: true,
+    slidesPerView: 3,
+    spaceBetween: 30,
+    grabCursor: true,
+
+    autoplay: {
+        delay: 3500,
+    },
+
+    breakpoints: {
+
+        320: {
+            slidesPerView: 1,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+        },
+
+        767: {
+            slidesPerView: 3,
+            spaceBetween: 20,
+        },
+        1200: {
+            slidesPerView: 3,
+            spaceBetween: 30,
+        },
+    },
+});
+
 
 

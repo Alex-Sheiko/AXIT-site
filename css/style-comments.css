@@ -23,6 +23,7 @@
     line-height: 21px;
     padding: 38px 20px 37px;
     color: #86878B;
+    transition: all 0.4s ease;
 }
 
 .comments__text:before{
@@ -34,10 +35,13 @@
 
 .comments-user__info {
     display: flex;
+    transition: all 0.4s ease;
 }
 
 .comments-user__icon {
     margin-right: 30px;
+    object-fit: cover;
+    transition: all 0.4s ease;
 }
 
 .comments-user__name {
@@ -48,6 +52,7 @@
     font-size: 24px;
     line-height: 33px;
     text-transform: capitalize;
+    transition: all 0.4s ease;
 }
 
 .comments-user__stage {
@@ -56,4 +61,5 @@
     font-weight: 400;
     font-size: 18px;
     line-height: 21px;
+    transition: all 0.4s ease;
 }

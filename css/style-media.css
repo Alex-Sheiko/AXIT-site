@@ -3,6 +3,9 @@
         display: flex;
         align-items: center;
     }
+    .swiper-pagination{
+        display: none;
+    }
 }
 
 @media (max-width: 1200px){
@@ -170,6 +173,42 @@
         margin-left: 20px;
     }
     /*Awesome end*/
+
+
+    /*Comments start*/
+    .comments__text{
+        font-size: 14px;
+        line-height: 16px;
+        padding: 50px 20px;
+    }
+
+    .comments-user__info{
+        align-items: flex-start;
+    }
+
+    .comments-user__icon{
+        margin-right: 22px;
+    }
+
+    .comments-user__name{
+        font-size: 18px;
+        line-height: 25px;
+        margin-bottom: 9px;
+    }
+
+    .comments-user__stage{
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .comments__text:before{
+        left: 60px;
+    }
+
+    .comments__inner{
+        margin-bottom: 57px;
+    }
+    /*Comments end*/
 }
 
 @media (max-width: 1024px){
@@ -314,6 +353,33 @@
         display: block;
     }
     /*Tabs end*/
+
+    /*Pricing start*/
+    .pricing__wrapper{
+        padding: 100px 0 50px;
+    }
+
+    .pricing-card__title{
+        padding: 9px 0;
+    }
+
+    .pricing-card__price{
+        padding: 21.5px 0;
+    }
+
+    .pricing-card__label,
+    .pricing-card__size{
+        padding: 11.5px 0;
+    }
+    /*Pricing end*/
+
+    /*Banner start*/
+    .banner__btn{
+        max-width: 318px;
+        width: 100%;
+    }
+    /*Banner end*/
+
 }
 
 @media (max-width: 767px) {
@@ -439,10 +505,6 @@
         margin-top: 10px;
     }
 
-    .section__title{
-        font-size: 18px;
-        line-height: 21px;
-    }
 
     .section__title::after{
         width: 134px;
@@ -459,8 +521,130 @@
         font-size: 18px;
         line-height: 25px;
     }
-
     /*Awesome end*/
+
+    /*Pricing start*/
+    .pricing__wrapper{
+        padding: 50px 0 26px;
+        margin-bottom: 35px;
+    }
+
+    .section__sub-title.section__sub-title_price{
+        margin-bottom: 24px;
+    }
+
+    .pricing__inner{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .pricing__inner .atropos:nth-child(2),
+    .pricing__inner .atropos:nth-child(3){
+        margin-left: 0;
+        margin-top: 27px;
+    }
+
+    .my-atropos, .my-atropos-2, .my-atropos-3{
+        max-width: 370px;
+        width: 100%;
+    }
+
+    .pricing-card__title{
+        font-size: 18px;
+        line-height: 25px;
+        padding: 10px 0;
+    }
+
+    .pricing-card__price{
+        font-size: 24px;
+        line-height: 28px;
+        padding: 24px 0;
+    }
+
+    .pricing-card__label,
+    .pricing-card__size{
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .pricing-card_padding{
+        padding-top: 0;
+    }
+    /*Pricing end*/
+
+    /*Comments start*/
+    .comments-box__item{
+        max-width: 288px;
+        margin: 0 auto;
+    }
+
+    .section__sub-title.section__sub-title_comments{
+        margin-bottom: 24px;
+    }
+
+    .comments__text{
+        margin-bottom: 62px;
+    }
+
+    .comments-user__name{
+        font-size: 14px;
+        line-height: 19px;
+        margin-bottom: 20px;
+    }
+
+    .comments-user__stage{
+        font-size: 13px;
+        line-height: 15px;
+    }
+
+    .comments__text:before{
+        left: 47px;
+    }
+
+    .comments-user__box{
+        padding-bottom: 45px;
+    }
+
+    .comments .swiper-horizontal > .swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
+        bottom: 0;
+        left: 13px;
+    }
+
+    .comments .swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet, .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+        margin: 0 25px;
+    }
+
+    .comments .swiper-pagination-bullet{
+        width: 9.49px;
+        height: 9.49px;
+        border: 1px solid #86878B;
+        background-color: #fff;
+    }
+
+    .comments .swiper-pagination-bullet.swiper-pagination-bullet-active{
+        background-color: #86878B;
+    }
+
+    .comments__inner{
+        margin-bottom: 32px;
+    }
+    /*Comments end*/
+
+    /*Banner start*/
+    .banner-wrapper{
+        padding: 50px 0 58px;
+    }
+
+    .section__sub-title.banner__sub-title{
+        margin-bottom: 66px;
+    }
+
+    .banner__btn{
+        padding: 10.5px 0;
+    }
+    /*Banner end*/
+
+
 }
 
 @media (max-width: 380px){
