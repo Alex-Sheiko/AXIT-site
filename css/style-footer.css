@@ -12,6 +12,10 @@
     margin-bottom: 28px;
 }
 
+.footer-social__item{
+    transition: all 0.4s ease;
+}
+
 .footer-social__item + .footer-social__item{
     margin-left: 33px;
 }
@@ -28,4 +32,9 @@
     font-size: 18px;
     line-height: 21px;
     color: rgba(255, 255, 255, 0.5);
+    transition: all 0.4s ease;
+}
+
+.footer-social__image{
+    transition: all 0.4s ease;
 }
