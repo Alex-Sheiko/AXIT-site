@@ -226,6 +226,8 @@
     padding: 20px 20px;
     cursor: pointer;
     border: none;
+    position: relative;
+    top: 3px;
 }
 
 .header-form__send-btn:hover{
