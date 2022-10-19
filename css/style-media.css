@@ -581,6 +581,7 @@
     .my-atropos, .my-atropos-2, .my-atropos-3{
         max-width: 370px;
         width: 100%;
+        pointer-events: none;
     }
 
     .pricing-card__title{

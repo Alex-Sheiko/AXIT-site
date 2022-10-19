@@ -32,6 +32,8 @@
     border-right: none;
     border-top: none;
     border-bottom: 1px solid #BDBDBD;
+    appearance: none;
+    border-radius: 0;
 }
 
 .contacts-form__input::placeholder{
@@ -59,6 +61,8 @@
     border-right: none;
     border-top: none;
     border-bottom: 1px solid #BDBDBD;
+    appearance: none;
+    border-radius: 0;
 }
 
 .contacts__text::placeholder{
