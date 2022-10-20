@@ -129,10 +129,6 @@ const swiper = new Swiper('.swiper', {
         clickable: true,
     },
 
-    autoplay: {
-        delay: 2000,
-    },
-
     breakpoints: {
 
         320: {
