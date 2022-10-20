@@ -88,6 +88,11 @@
         line-height: 16px;
         width: 402px;
     }
+
+    .social-media__left{
+        margin-right: 0;
+        width: 100%;
+    }
     /*Social-media end*/
 
 

@@ -124,18 +124,19 @@ const swiper = new Swiper('.swiper', {
     spaceBetween: 30,
     grabCursor: true,
 
+    pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+    },
+
     autoplay: {
-        delay: 3500,
+        delay: 2000,
     },
 
     breakpoints: {
 
         320: {
             slidesPerView: 1,
-            pagination: {
-                el: ".swiper-pagination",
-                clickable: true,
-            },
         },
 
         767: {
